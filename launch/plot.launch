@@ -1,0 +1,8 @@
+<!--%Tag(FULL)%-->
+<launch>
+	
+	<node pkg="mathgl" type="surface_plot" name="SurfacePlot" output="screen"/>
+	
+</launch>
+<!--%EndTag(FULL)%-->
+

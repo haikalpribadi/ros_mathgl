@@ -31,5 +31,5 @@ rosbuild_gensrv()
 
 include_directories (include/mathgl)
 rosbuild_add_executable(surface_plot src/SurfacePlot.cpp)
-target_link_libraries(surface_plot mgl mgl-fltk)
+target_link_libraries(surface_plot mgl)
 
